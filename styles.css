@@ -1,0 +1,76 @@
+body {
+  background-color: #f8f9fa; /* Light gray background */
+}
+
+.navbar {
+  background-color: #065339 !important; /* Custom blue for navbar */
+}
+
+.navbar-brand {
+  color: white;
+}
+
+.navbar-nav .nav-link {
+  color: white;
+}
+
+.navbar-nav .nav-link.active {
+  color: #ffcc00; /* Active link color */
+}
+
+.jumbotron {
+  background-color: #036544 !important; /* Green background for jumbotron */
+}
+
+.jumbotron .display-4 {
+  font-size: 3rem;
+}
+
+.jumbotron .lead {
+  font-size: 1.25rem;
+}
+
+.card {
+  border-color: #92dda4;
+}
+
+.card-body {
+  background-color: #f0f8ff;
+}
+
+.card-title {
+  color: #065339;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
+
+footer a {
+  color: white;
+}
+
+footer a:hover {
+  color: #bdee99; /* Hover effect */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #036544; /* Warna sesuai selera */
+  color: white;
+  text-align: center;
+  padding: 1em;
+}
