@@ -84,23 +84,17 @@
 
     <!-- Bootstrap JS (optional for responsive navbar) -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script
-    const scriptURL = 'https://script.google.com/a/macros/students.uii.ac.id/s/AKfycbz8mDSvILgS8tiJVMDzc-1D_Y3YW9ph_27sRZF9O7aqQeHhn8IzuS95EuUM5EIXNCMItg/exec'
-    const form = document.forms["Contact-Form"];
-
-    form.addEventListener("submit", (e) => {
-      e.preventDefault(); // Mencegah reload halaman
-      fetch(scriptURL, { method: "POST", body: new FormData(form) })
-        .then((response) => response.text()) // Mengambil respons dari Apps Script
-        .then((text) => {
-          console.log("Success!", text);
-          alert("Form submitted successfully!");
-        })
-        .catch((error) => {
-          console.error("Error!", error.message);
-          alert("Failed to submit the form. Please try again.");
-        });
-    });
+    
+     <script>
+     const scriptURL = 'isi link google sheets kalian'
+     const form = document.forms['Contact-Form']
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+       fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+       .then(response => console.log('Success!', response))
+       .catch(error => console.error('Error!', error.message))
+ })
+ </script>
   </script>
 </body>
 </html>
